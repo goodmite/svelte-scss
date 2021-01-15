@@ -10,7 +10,7 @@
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
-<style type="text/scss">
+<style type="text/scss" global>
   $color: red;
 
   h1 {
@@ -25,9 +25,9 @@
     }
   }
 
-  :global {
-    body {
-      background: red;
-    }
+
+  body {
+    background: red;
   }
+
 </style>
